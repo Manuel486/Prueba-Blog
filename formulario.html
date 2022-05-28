@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MI FORMULARIO CON VALIDACIONES</title>
+</head>
+
+<body>
+<form name="miFormulario" id="miFormulario" method="get" action="procesaGet.php">
+<!--comentario-->
+  <table width="450" border="0" align="center">
+	  <tr>
+	    <td colspan="3" align="center" valign="middle"><strong>Registro de persona</strong></td>
+    </tr>
+	  <tr>
+	    <td width="33" align="center">1.</td>
+	    <td width="144">nombres:</td>
+	    <td width="259"><input name="nombre" type="text" id="nombre" size="25"></td>
+    </tr>
+	  <tr>
+	    <td align="center">2.</td>
+	    <td>apellido paterno:</td>
+	    <td><input name="apaterno" type="text" id="apaterno" size="25"></td>
+    </tr>
+	  <tr>
+	    <td align="center">3.</td>
+	    <td>apellido materno:</td>
+	    <td><input name="amaterno" type="text" id="amaterno" size="25"></td>
+    </tr>
+	  <tr>
+	    <td align="center">4.</td>
+	    <td>fecha nacimiento:</td>
+	    <td>dia:
+	      <input name="diaNac" type="text" id="diaNac" size="3">
+          mes:
+          <input name="mesNac" type="text" id="mesNac" size="3">
+          año:
+          <input name="anioNac" type="text" id="anioNac" size="5">
+        </td>
+    </tr>
+	  <tr>
+	    <td align="center">5.</td>
+	    <td>direccion:</td>
+	    <td><input name="direccion" type="text" id="direccion" size="25"></td>
+    </tr>
+	  <tr>
+	    <td align="center">6.</td>
+	    <td>telefono:</td>
+	    <td><input name="telefono" type="text" id="telefono" size="25"></td>
+    </tr>
+	  <tr>
+	    <td align="center">7.</td>
+	    <td>email:</td>
+	    <td><input name="email" type="text" id="email" size="25"></td>
+    </tr>
+	  <tr>
+	    <td>&nbsp;</td>
+	    <td>&nbsp;</td>
+	    <td><input type="reset" name="cancel" id="cancel" value="Cancelar">
+            <input type="submit" name="aceptar" id="aceptar" value="ENVIAR" >
+        </td>
+    </tr>
+	 
+  </table>
+</form>
+</body>
+</html>
